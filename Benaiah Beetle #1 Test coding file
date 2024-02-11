@@ -1,0 +1,59 @@
+print ("Welcome weary traveller of the internet! ")
+print ("You're about to take my personal quiz in order to pass the firewall of doom!")
+print ("Please type yes or no in the box below.")
+print("All questions should be answered with the first letter being capitalized")
+
+playing = input("Do you have what it takes in order to pass? ")
+
+if playing != "Yes":
+           quit()
+print("Okay! Be warned though! This is a very dangerous adventure!")
+print("You may enter in. Proceed with caution!")
+
+answer = input("1st question! What is my favorite subject? ")
+if answer != "Math":
+        print("Sorry thats not correct! You have failed! You may go no further! ") 
+        quit()
+if answer == ("Math"):
+        print("Correct! Are you still prepared? It gets more difficult!")
+
+print("Hint:The next question is all uppercase!")
+
+answer = input("2nd question! What is my favorite TV show? ")
+if answer != "TMNT":
+        print("Sorry thats not correct! You have failed! You may go no further!") 
+        quit()
+if answer == ("TMNT"):
+        print("Correct! You're blazing through this! I must make this more difficult!")
+
+print("...screaming is heard by your ears...")
+print("You shall not PASS! PREPARE TO MEET YOUR DOOM!!!")
+
+
+answer = input("3rd question! Solve this equation-> 15x+36=96+3x? ")
+if answer != "x=5":
+        print("Sorry thats not correct! You have failed! You may go no further!") 
+        quit()
+if answer == ("x=5"):
+        print("What!...HOW! How did you get that correct!") 
+
+answer = input("4th question! Who is my favorite minister spoke about in the Bible? ")
+if answer == ("Apollos"):
+        print("You are beginning to get on my nerves!! HOW IN THE WORLD DID YOU GET THAT CORRECT?!?!")
+else: 
+        print("Sorry thats not correct! You have failed! You may go no further!")
+        quit()
+
+print("You may have passed the first barrier of 4 questions, but you will meet DEATH on the next question!!!")
+print("Are you ready for DEATH!!!!!")
+
+print("Here is the 5th question! I am sure you will not pass it!")
+answer = input("What will I invent in the future? ")
+if answer == ("Maglev Car"):
+        print("NOOOOOOOOOOO... this was the final question!")
+        print("HOW!!! How did you beat my impossible Quiz! ")
+        print("FINE!... You Won! Congragulations! You may have safe passage through the firewall!")
+else: 
+        print("Mwahahahahahah!!! You have failed! And it was the last question!! You will never EVER gain access to the firewall!!!! ")
+
+
